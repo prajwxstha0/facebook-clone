@@ -1,7 +1,6 @@
 function Comment({ comment }) {
   return (
     <div className="flex items-start gap-2 mb-2">
-      <h1>hi hello</h1>
       {comment.userProfilePic ? (
         <img
           src={comment.userProfilePic}
